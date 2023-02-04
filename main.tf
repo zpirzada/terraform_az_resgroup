@@ -14,7 +14,7 @@ provider "azurerm" {
 
 #Creates resource group
 resource "azurerm_resource_group" "main" {
-    name = "zebi-tf-rg-eastus"
+    name = "zeb-tf-rg-eastus"
     location = "eastus"
 }
 
